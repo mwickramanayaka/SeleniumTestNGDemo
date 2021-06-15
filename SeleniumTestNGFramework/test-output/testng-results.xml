@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-15T22:41:29 IST" name="Suite1" finished-at="2021-06-15T22:41:29 IST" duration-ms="106">
+    <groups>
+      <group name="linux.regression">
+        <method signature="TestNGGroupDemo.test6()[pri:0, instance:demo.TestNGGroupDemo@1f3f4916]" name="test6" class="demo.TestNGGroupDemo"/>
+      </group> <!-- linux.regression -->
+      <group name="windows.regression">
+        <method signature="TestNGGroupDemo.test5()[pri:0, instance:demo.TestNGGroupDemo@1f3f4916]" name="test5" class="demo.TestNGGroupDemo"/>
+      </group> <!-- windows.regression -->
+      <group name="regression">
+        <method signature="TestNGGroupDemo.test3()[pri:0, instance:demo.TestNGGroupDemo@1f3f4916]" name="test3" class="demo.TestNGGroupDemo"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="TestNGGroupDemo.test2()[pri:0, instance:demo.TestNGGroupDemo@1f3f4916]" name="test2" class="demo.TestNGGroupDemo"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="TestNGGroupDemo.test1()[pri:0, instance:demo.TestNGGroupDemo@1f3f4916]" name="test1" class="demo.TestNGGroupDemo"/>
+        <method signature="TestNGGroupDemo.test2()[pri:0, instance:demo.TestNGGroupDemo@1f3f4916]" name="test2" class="demo.TestNGGroupDemo"/>
+        <method signature="TestNGGroupDemo.test3()[pri:0, instance:demo.TestNGGroupDemo@1f3f4916]" name="test3" class="demo.TestNGGroupDemo"/>
+      </group> <!-- sanity -->
+      <group name="AllClassTests">
+        <method signature="TestNGGroupDemo.test1()[pri:0, instance:demo.TestNGGroupDemo@1f3f4916]" name="test1" class="demo.TestNGGroupDemo"/>
+        <method signature="TestNGGroupDemo.test2()[pri:0, instance:demo.TestNGGroupDemo@1f3f4916]" name="test2" class="demo.TestNGGroupDemo"/>
+        <method signature="TestNGGroupDemo.test3()[pri:0, instance:demo.TestNGGroupDemo@1f3f4916]" name="test3" class="demo.TestNGGroupDemo"/>
+        <method signature="TestNGGroupDemo.test4()[pri:0, instance:demo.TestNGGroupDemo@1f3f4916]" name="test4" class="demo.TestNGGroupDemo"/>
+        <method signature="TestNGGroupDemo.test5()[pri:0, instance:demo.TestNGGroupDemo@1f3f4916]" name="test5" class="demo.TestNGGroupDemo"/>
+        <method signature="TestNGGroupDemo.test6()[pri:0, instance:demo.TestNGGroupDemo@1f3f4916]" name="test6" class="demo.TestNGGroupDemo"/>
+      </group> <!-- AllClassTests -->
+    </groups>
+    <test started-at="2021-06-15T22:41:29 IST" name="Test1" finished-at="2021-06-15T22:41:29 IST" duration-ms="106">
+      <class name="demo.TestNGGroupDemo">
+        <test-method signature="test1()[pri:0, instance:demo.TestNGGroupDemo@1f3f4916]" started-at="2021-06-15T22:41:29 IST" name="test1" finished-at="2021-06-15T22:41:29 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:demo.TestNGGroupDemo@1f3f4916]" started-at="2021-06-15T22:41:29 IST" name="test2" finished-at="2021-06-15T22:41:29 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test3()[pri:0, instance:demo.TestNGGroupDemo@1f3f4916]" started-at="2021-06-15T22:41:29 IST" name="test3" finished-at="2021-06-15T22:41:29 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method signature="test4()[pri:0, instance:demo.TestNGGroupDemo@1f3f4916]" started-at="2021-06-15T22:41:29 IST" name="test4" finished-at="2021-06-15T22:41:29 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method signature="test5()[pri:0, instance:demo.TestNGGroupDemo@1f3f4916]" started-at="2021-06-15T22:41:29 IST" name="test5" finished-at="2021-06-15T22:41:29 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method signature="test6()[pri:0, instance:demo.TestNGGroupDemo@1f3f4916]" started-at="2021-06-15T22:41:29 IST" name="test6" finished-at="2021-06-15T22:41:29 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+      </class> <!-- demo.TestNGGroupDemo -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>
