@@ -2,23 +2,26 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-15T23:57:47 IST" name="Default suite" finished-at="2021-06-15T23:57:47 IST" duration-ms="94">
+  <suite started-at="2021-06-16T00:02:58 IST" name="Default suite" finished-at="2021-06-16T00:02:58 IST" duration-ms="114">
     <groups>
-      <group name="sanity1">
+      <group name="sanity 2">
+        <method signature="TestNGDependency.test3()[pri:0, instance:demo.TestNGDependency@161479c6]" name="test3" class="demo.TestNGDependency"/>
+      </group> <!-- sanity 2 -->
+      <group name="sanity 1">
         <method signature="TestNGDependency.test2()[pri:0, instance:demo.TestNGDependency@161479c6]" name="test2" class="demo.TestNGDependency"/>
-      </group> <!-- sanity1 -->
+      </group> <!-- sanity 1 -->
     </groups>
-    <test started-at="2021-06-15T23:57:47 IST" name="Default test" finished-at="2021-06-15T23:57:47 IST" duration-ms="94">
+    <test started-at="2021-06-16T00:02:58 IST" name="Default test" finished-at="2021-06-16T00:02:58 IST" duration-ms="114">
       <class name="demo.TestNGDependency">
-        <test-method signature="test2()[pri:0, instance:demo.TestNGDependency@161479c6]" started-at="2021-06-15T23:57:47 IST" name="test2" finished-at="2021-06-15T23:57:47 IST" duration-ms="16" status="PASS">
+        <test-method signature="test2()[pri:0, instance:demo.TestNGDependency@161479c6]" started-at="2021-06-16T00:02:58 IST" name="test2" finished-at="2021-06-16T00:02:58 IST" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method signature="test3()[pri:0, instance:demo.TestNGDependency@161479c6]" started-at="2021-06-15T23:57:47 IST" name="test3" finished-at="2021-06-15T23:57:47 IST" duration-ms="2" status="PASS">
+        <test-method signature="test3()[pri:0, instance:demo.TestNGDependency@161479c6]" started-at="2021-06-16T00:02:58 IST" name="test3" finished-at="2021-06-16T00:02:58 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3 -->
-        <test-method signature="test1()[pri:0, instance:demo.TestNGDependency@161479c6]" started-at="2021-06-15T23:57:47 IST" name="test1" depends-on-groups="sanity1" finished-at="2021-06-15T23:57:47 IST" duration-ms="1" status="PASS">
+        <test-method signature="test1()[pri:0, instance:demo.TestNGDependency@161479c6]" started-at="2021-06-16T00:02:58 IST" name="test1" depends-on-groups="sanity.*" finished-at="2021-06-16T00:02:58 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
