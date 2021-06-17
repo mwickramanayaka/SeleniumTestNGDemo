@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-16T01:22:13 IST" name="Default suite" finished-at="2021-06-16T01:23:08 IST" duration-ms="54417">
+  <suite started-at="2021-06-16T02:17:48 IST" name="Default suite" finished-at="2021-06-16T02:18:54 IST" duration-ms="65609">
     <groups>
     </groups>
-    <test started-at="2021-06-16T01:22:13 IST" name="Default test" finished-at="2021-06-16T01:23:08 IST" duration-ms="54417">
-      <class name="demo.DarazTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:demo.DarazTest@4b5d6a01]" started-at="2021-06-16T01:22:13 IST" name="setUp" finished-at="2021-06-16T01:22:21 IST" duration-ms="7266" status="PASS">
+    <test started-at="2021-06-16T02:17:48 IST" name="Default test" finished-at="2021-06-16T02:18:54 IST" duration-ms="65609">
+      <class name="demo.DarazTestKatalonRecorder">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:demo.DarazTestKatalonRecorder@4b5d6a01]" started-at="2021-06-16T02:17:48 IST" name="setUp" finished-at="2021-06-16T02:17:52 IST" duration-ms="3274" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testDarazTest1()[pri:0, instance:demo.DarazTest@4b5d6a01]" started-at="2021-06-16T01:22:21 IST" name="testDarazTest1" finished-at="2021-06-16T01:23:07 IST" duration-ms="45810" status="FAIL">
+        <test-method signature="testDarazTest1()[pri:0, instance:demo.DarazTestKatalonRecorder@4b5d6a01]" started-at="2021-06-16T02:17:52 IST" name="testDarazTest1" finished-at="2021-06-16T02:18:52 IST" duration-ms="60607" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"div.mod-login-col2"}
@@ -20,8 +20,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'MANUL-W', ip: '192.168.1.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.128, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\MANUL~1.WIC\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:56305}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: e7d68c978cc7d3fb094c02555cbf0e5d
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.128, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\MANUL~1.WIC\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:49607}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c573deaf3c236adecee4f7a87ee31743
 *** Element info: {Using=css selector, value=div.mod-login-col2}]]>
             </message>
             <full-stacktrace>
@@ -31,8 +31,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'MANUL-W', ip: '192.168.1.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.128, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\MANUL~1.WIC\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:56305}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: e7d68c978cc7d3fb094c02555cbf0e5d
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.128, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\MANUL~1.WIC\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:49607}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c573deaf3c236adecee4f7a87ee31743
 *** Element info: {Using=css selector, value=div.mod-login-col2}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
@@ -49,7 +49,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
 at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at demo.DarazTest.testDarazTest1(DarazTest.java:36)
+at demo.DarazTestKatalonRecorder.testDarazTest1(DarazTestKatalonRecorder.java:36)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -84,11 +84,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDarazTest1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:demo.DarazTest@4b5d6a01]" started-at="2021-06-16T01:23:07 IST" name="tearDown" finished-at="2021-06-16T01:23:08 IST" duration-ms="1259" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:demo.DarazTestKatalonRecorder@4b5d6a01]" started-at="2021-06-16T02:18:52 IST" name="tearDown" finished-at="2021-06-16T02:18:54 IST" duration-ms="1655" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- demo.DarazTest -->
+      </class> <!-- demo.DarazTestKatalonRecorder -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
