@@ -29,6 +29,7 @@ public class DarazTestKatalonRecorder {
 	@Test
 	public void testDarazTest1() throws Exception {
 		driver.get("https://www.daraz.lk/");
+		
 		driver.findElement(By.id("q")).click();
 		driver.findElement(By.id("q")).clear();
 		driver.findElement(By.id("q")).sendKeys("mobile");
